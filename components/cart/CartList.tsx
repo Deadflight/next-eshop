@@ -1,7 +1,7 @@
 import { Grid, Link, Typography, CardActionArea, CardMedia, Box, Button } from '@mui/material';
 import NextLink from 'next/link';
 import { FC } from 'react';
-import { initialData } from '../../database/productsTest';
+import { initialData } from '../../database/products';
 import { ItemCounter } from '../products';
 
 

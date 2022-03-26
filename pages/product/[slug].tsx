@@ -1,5 +1,5 @@
 import { ShopLayout } from '../../components/layouts/ShopLayout';
-import { initialData } from '../../database/productsTest';
+import { initialData } from '../../database/products';
 import { Grid, Box, Typography, Button, Chip } from '@mui/material';
 import { ItemCounter, ProductSlideShow, SizeSelector } from '../../components/products';
 

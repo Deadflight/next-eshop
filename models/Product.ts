@@ -39,7 +39,7 @@ const productSchema: Schema = new Schema(
   }
 )
 
-//TODO: Create mongo index
+productSchema.index({ title: 'text', tags: 'text' }) // For search
 
 const Product: Model<IProduct> = mongoose.models.Product || model('Product', productSchema)
 
