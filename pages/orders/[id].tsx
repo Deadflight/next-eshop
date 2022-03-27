@@ -4,7 +4,7 @@ import { Card, CardContent, Grid, Typography, Divider, Box, Link, Chip } from '@
 import { CartList } from '../../components/cart';
 import { OrderSummary } from '../../components/cart';
 import NextLink from 'next/link';
-import { CreditCardOffOutlined, CreditScoreOutlined } from '@mui/icons-material';
+import { CreditScoreOutlined } from '@mui/icons-material';
 
 const OrderPage = () => {
   return (
