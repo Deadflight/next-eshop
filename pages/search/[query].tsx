@@ -59,7 +59,6 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   
   if ( !foundProducts ) {
     products = await dbProducts.getAllProducts()
-    products = JSON.parse(JSON.stringify(products))
   }
 
 
