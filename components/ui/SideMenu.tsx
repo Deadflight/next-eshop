@@ -40,6 +40,7 @@ export const SideMenu = () => {
                             type='text'
                             placeholder="Search..."
                             value={searchTerm}
+                            autoFocus
                             onChange={ (e) => setSearchTerm(e.target.value) }
                             onKeyPress={ (e) => e.key === 'Enter' && onSearchTerm() }
                             endAdornment={

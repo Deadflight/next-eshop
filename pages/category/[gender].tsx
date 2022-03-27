@@ -15,7 +15,7 @@ const CategoryPage = () => {
 
   return (
     <ShopLayout title={`Next-Eshop - ${genderCapitalized}`} pageDescription={`${genderCapitalized} category page`}>
-      <Typography variant="h1" component={'h1'}>{genderCapitalized}</Typography>
+      <Typography variant="h1" component={'h1'} textTransform='capitalize'>{gender}</Typography>
       <Typography variant="h2" sx={{mb: 1}}>Products for {gender}</Typography>
       {
         isLoading
