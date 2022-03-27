@@ -1,7 +1,7 @@
 import useSWR, { SWRConfiguration } from "swr";
 import { IProduct } from "../interfaces";
 
-const fetcher = (...args: [key: string]) => fetch(...args).then(res => res.json())
+// const fetcher = (...args: [key: string]) => fetch(...args).then(res => res.json()) // Now we use SWR Global Config
 
 export const useProducts = ( url: string, config: SWRConfiguration = {} ) => {
   

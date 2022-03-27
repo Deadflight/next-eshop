@@ -11,7 +11,7 @@ const CategoryPage = () => {
   const { gender = '' } = router.query
 
   const { products, isLoading } = useProducts(`products?gender=${gender}`)
-  const genderCapitalized = gender[0].toUpperCase() + gender.slice(1)
+  const genderCapitalized = gender[0]?.toUpperCase() + gender.slice(1)
 
   return (
     <ShopLayout title={`Next-Eshop - ${genderCapitalized}`} pageDescription={`${genderCapitalized} category page`}>
